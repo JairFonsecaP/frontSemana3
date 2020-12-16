@@ -53,7 +53,7 @@ export default {
       }
     },
     logOut() {
-      swal("Gracias por visitarnos", "vuelve pronto");
+      swal("Gracias por visitarnos", "Vuelve pronto");
       localStorage.removeItem("jwt");
       localStorage.removeItem("user");
       this.$router.push("/");
